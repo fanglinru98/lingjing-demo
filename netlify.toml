@@ -1,0 +1,7 @@
+# 演示版为纯静态应用：只需构建前端，无需后端/函数
+[build]
+command = "npm run build:client"
+publish = "dist/spa"
+
+[build.environment]
+NODE_VERSION = "22"
